@@ -14,6 +14,12 @@
 - High score saved in a text file
 - Restart and exit buttons
 
+## How to Run
+1. Install Python.
+2. Open the project folder in VS Code.
+3. Open the terminal.
+4. Run `python random_quiz.py`.
+   
 ## How the Questions Are Stored and Shuffled
 I stored the questions in a list of dictionaries and each question has four choices and one correct answer. I used `random.sample()` to shuffle the questions everytime the quiz starts.
 
